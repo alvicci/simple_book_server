@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "The Great Chess Master",
+        "author": "Tunde Onakoya",
+        "loaned": false
+    },
+    {
+        "id": 2,
+        "title": "To Kill a Mockingbird",
+        "author": "Elon Musk",
+        "loaned": false
+    },
+    {
+        "id": 3,
+        "title": "Reply 1988",
+        "author": "Lee Hye-ri",
+        "loaned": true
+    }
+]
