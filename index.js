@@ -6,6 +6,8 @@ const PORT = 3000;
 let books = JSON.parse(fs.readFileSync("books.json"));
 let users = JSON.parse(fs.readFileSync("users.json"));
 
+// localhost:3000/users/signup
+
 const server = http.createServer((req, res) => {
   if (req.url === "/users/signup" && req.method === "POST") {
     let body = "";
@@ -30,5 +32,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`The server is dancing on port ${PORT}. Keep watching!`);
 });
