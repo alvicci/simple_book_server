@@ -1,7 +1,7 @@
 const http = require("http");
 const fs = require("fs");
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 let books = JSON.parse(fs.readFileSync("books.json"));
 let users = JSON.parse(fs.readFileSync("users.json"));
